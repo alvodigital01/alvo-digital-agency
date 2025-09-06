@@ -5,7 +5,7 @@
   bottom: 30px;
   right: 30px;
   z-index: 999;
-  background-color: #8b4ce0;
+  background-color: #BB73DD;
   color: white;
   border: none;
   outline: none;
@@ -20,7 +20,7 @@
 }
 
 #btnTopo:hover {
-  background-color: #d49263;
+  background-color: #4d0070;
   transform: scale(1.1);
 }
 
@@ -34,7 +34,7 @@
 body {
       font-family: 'Rajdhani', sans-serif;
       color: white;
-      background: linear-gradient(to right,  #000000 , #000000);
+      background: linear-gradient(to right, black,black );
       overflow-x: hidden;
       border: none;
   outline: none; 
@@ -62,7 +62,7 @@ body {
   .loader {
     width: 40px;
     height: 40px;
-    border: 5px solid #8b4ce0;
+    border: 5px solid #BB73DD;
     border-top: 5px solid #ff9cdb;
     border-radius: 50%;
     animation: spin 1s linear infinite;
@@ -74,13 +74,14 @@ body {
 
 
 header {
-  background: linear-gradient(to right,  #000000 , #000000 );
+  background: linear-gradient(to right,  BLACK, BLACK);
   padding: 1rem 2rem;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 999;
 }
+
 
 
 .nav-container {
@@ -93,55 +94,33 @@ header {
 }
 
 .logo img {
-  height: 26px; /* ajuste conforme necessário */
+  height: 37px; /* ajuste conforme necessário */
   width: auto;
   display: block;
 }
 
 
 .underscore {
-  color: #6b2fc8 ;
+  color: #bb73dde9 ;
   font-size: 1.8rem;
   position: relative;
   top: -5px;
 }
 
-/* BOTÃO WHATSAPP COM ESTILO E ANIMAÇÃO */
-.whatsapp-btn {
-  color: #cccccc;
-  background: linear-gradient(90deg,  #8c4ce0f6, #8c4ce0da, #8c4ce09c,  #8c4ce0dc, #8c4ce0ac,#8c4ce0d0,#8b4ce0);
-  border: none;
-  padding: 0.6rem 1.6rem;
-  border-radius: 50px;
-  font-weight: bold;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 1rem;
-  box-shadow: 0 0 0px #8b4ce0;
-  transition: all 0.3s ease;
-  animation: pulseGlow 2s infinite;
-  position: relative;
-  z-index: 2;
-  overflow: hidden; /* importante para esconder o brilho fora do botão */
-}
 
-.whatsapp-btn:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 20px #8b4ce0;
-}
+
+
 
 /* Animação de brilho pulsante */
 @keyframes pulseGlow {
   0% {
-    box-shadow: 0 0 0px #8b4ce0;
+    box-shadow: 0 0 0px #BB73DD;
   }
   50% {
-    box-shadow: 0 0 12px #8b4ce0;
+    box-shadow: 0 0 12px #BB73DD;
   }
   100% {
-    box-shadow: 0 0 0px #8b4ce0;
+    box-shadow: 0 0 0px #BB73DD;
   }
 }
 
@@ -152,21 +131,6 @@ header {
 
 
 
-
-.light-line-wpp {
-  position: absolute;
-  top: -3px;
-  left: -3px;
-  right: -3px;
-  bottom: -3px;
-  border-radius: 50px;
-  background: linear-gradient(90deg, transparent, #ff9cdb, transparent);
-  background-size: 300% 100%;
-  animation: moveLightWpp 2s linear infinite;
-  filter: blur(2px);
-  z-index: 1;
-  pointer-events: none;
-}
 
 
 /* Aumenta o z-index do botão pra ficar acima da linha */
@@ -184,7 +148,7 @@ header {
 
 .whatsapp-btn {
   color: #cccccc;
-  background: linear-gradient(90deg,  #8c4ce0f6, #8c4ce0da, #8c4ce09c,  #8c4ce0dc, #8c4ce0ac,#8c4ce0d0,#8b4ce0);
+  background: linear-gradient(90deg, #BB73DD,#BB73DD);
   border: none;
   padding: 0.6rem 1.6rem;
   border-radius: 50px;
@@ -194,7 +158,7 @@ header {
   align-items: center;
   gap: 0.5rem;
   font-size: 1rem;
-  box-shadow: 0 0 0px #8b4ce0;
+  box-shadow: 0 0 0px #000000;
   transition: all 0.3s ease;
   animation: pulseGlow 2s infinite;
   position: relative; /* Para que o botão fique acima do brilho */
@@ -202,8 +166,8 @@ header {
 }
 
 .whatsapp-btn:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 20px #8b4ce0;
+  transform: scale(1.02);
+ 
 }
 
 .light-line-wpp {
@@ -214,7 +178,7 @@ header {
   right: -3px;
   bottom: -3px;
   border-radius: 50px;
-  background: linear-gradient(90deg, transparent, #ff9cdb, transparent);
+  background: linear-gradient(90deg, transparent, #b97fd4, transparent);
   background-size: 300% 100%;
   animation: moveLightWpp 2s linear infinite;
   filter: blur(2px);
@@ -303,7 +267,6 @@ main {
 @media (max-width: 768px) {
   .whatsapp-btn {
   color: #cccccc;
-  background: linear-gradient(90deg,  #8c4ce0f6, #8c4ce0da, #8c4ce09c,  #8c4ce0dc, #8c4ce0ac,#8c4ce0d0,#8b4ce0);
   border: none;
   padding: 1.2rem 1.6rem;
   border-radius: 50px;
@@ -326,7 +289,7 @@ main {
   cursor: pointer;
 }
 .logo img {
-  height: 18px; /* ajuste conforme necessário */
+  height: 22px; /* ajuste conforme necessário */
   width: auto;
   display: block;
 }
@@ -347,7 +310,6 @@ main {
 .animated-background {
   position: relative;
   height: 100vh;
-  background: linear-gradient(to right, #000000, #000000);
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -459,8 +421,7 @@ main {
   position: relative;
   padding: 1rem 2.5rem;
   border-radius: 50px;
-  background: linear-gradient(270deg, #8c4ce0f6, #8c4ce0da, #8c4ce09c,
-   #8c4ce0dc, #8c4ce0ac, #8c4ce0d0, #8b4ce0);
+  background: linear-gradient(270deg, #BB73DD, #BB73DD);
   color: #cccccc;
   font-size: 1.1rem;
   font-weight: 700;
@@ -479,7 +440,7 @@ main {
   right: -3px;
   bottom: -3px;
   border-radius: 50px;
-  background: linear-gradient(90deg, transparent, #ff9cdb, transparent);
+  background: linear-gradient(90deg, transparent, #BB73DD, transparent);
   z-index: 1;
   animation: moveLight 2s linear infinite;
   background-size: 300% 100%;
@@ -574,7 +535,7 @@ main {
 }
 
 .n1-box {
-  border: 1px solid #ff9cdb;
+  border: 1px solid #BB73DD;
   border-radius: 1.25rem;
   padding: 3rem 2rem;
   max-width: 1100px;
@@ -589,7 +550,7 @@ main {
 .n1-box h1 {
   font-size: 2.5rem;
   font-weight: 800;
-  color: #cccccc;
+  color: white;
   margin-bottom: 1.5rem;
   line-height: 1.3;
 }
@@ -597,24 +558,24 @@ main {
 .n1-box h2 {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #cccccc;
+  color: white;
   margin-bottom: 1rem;
 }
 
 .n1-box h3 {
   font-size: 1.2rem;
   font-weight: 500;
-  color: #ff9cdb;
+  color: #BB73DD;
   margin-bottom: 1rem;
 }
 
 .n1-box p {
   font-size: 1.1rem;
-  color: #cccccc;
+  color: white;
 }
 
 .n1-color {
-  color: #ff9cdb;
+  color: #BB73DD;
   font-weight: 700;
 }
 
@@ -692,7 +653,7 @@ main {
 .subtitulo-atuacao {
   font-size: 1rem;
   margin-bottom: 3rem;
-  color: #8b4ce0;
+  color: #BB73DD;
 }
   }
  .atuacao-section {
@@ -727,14 +688,14 @@ main {
 .subtitulo-atuacao {
   font-size: 1.2rem;
   margin-bottom: 3rem;
-  color: #8b4ce0;
+  color: #BB73DD;
 }
 
 .cards-atuacao {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* força 3 colunas */
   gap: 2rem;
-  border: 1px #ff9cdb;
+  border: 1px #BB73DD;
 }
 
 @media (max-width: 992px) {
@@ -760,7 +721,7 @@ main {
 .subtitulo-atuacao {
   font-size: 1rem;
   margin-bottom: 3rem;
-  color: #8b4ce0;
+  color: #BB73DD;
 }
   }
 
@@ -771,7 +732,7 @@ main {
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.06);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   text-align: center;
-  border: 1px solid #ff9cdb;
+  border: 1px solid #BB73DD;
 }
 
 .card-item:hover {
@@ -781,7 +742,7 @@ main {
 
 .card-item .icon {
   font-size: 2.2rem;
-  color: #8b4ce0;
+  color: #BB73DD;
   margin-bottom: 1rem;
 }
 
@@ -794,7 +755,7 @@ main {
 
 .card-item p {
   font-size: 1rem;
-  color: #ff9cdb;
+  color: #BB73DD;
 }
 
 
@@ -816,7 +777,7 @@ main {
   padding: 2rem;
   background: rgba(255, 255, 255, 0.02);
   backdrop-filter: blur(4px);
-  border: 1px solid #ff9cdb;
+  border: 1px solid #BB73DD;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.06);
   transition: all 0.4s ease;
   text-align: center;
@@ -857,7 +818,7 @@ main {
 
 .card-item:hover .icon {
   transform: scale(1.2);
-  color: #ff9cdba7;
+  color: #BB73DD;
 }
 
 /* -----------------------------------------------*/
@@ -921,7 +882,7 @@ main {
 .linha-estrategica-subtitulo {
   font-size: 1.2rem;
   margin-bottom: 2.5rem;
-  color: #8b4ce0;
+  color:#BB73DD ;
 }
 
 .linha-estrategica-cards {
@@ -935,7 +896,7 @@ main {
   align-items: center;
   gap: 1rem;
   background: rgba(255, 255, 255, 0.03);
-  border: 1px solid #ff9cdb;
+  border: 1px solid #BB73DD;
   border-radius: 12px;
   padding: 1.2rem 1.5rem;
   color: #cccccc;
@@ -954,7 +915,7 @@ main {
 }
 
 .check-roxo {
-  color: #8b4ce0;
+  color: #BB73DD;
 }
 
 .linha-estrategica-card p {
@@ -1048,7 +1009,7 @@ main {
 
 /* mosaico*/
 .descricao-mosaico {
-  color: #ff9cdb;
+  color: #BB73DD;
   max-width: 800px;
   margin: 0 auto;
   font-size: 1.1rem;
@@ -1274,7 +1235,7 @@ main {
 }
 
 .lista-n1-diferenciais li i {
-  color: #ff9cdb;
+  color: #BB73DD;
   font-size: 1.4rem;
 }
 
@@ -1371,7 +1332,7 @@ main {
 .bloco-negativo, .bloco-positivo {
   flex: 1 1 45%;
   background: rgba(255, 255, 255, 0.03);
-  border: 1px solid #ff9cdb;
+  border: 1px solid #BB73DD;
   padding: 2rem;
   border-radius: 15px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
@@ -1454,7 +1415,7 @@ main {
     margin: 0 auto;
     padding: 40px;
     border-radius: 16px;
-    border: 1px solid #ff9cdb;
+    border: 1px solid #BB73DD;
     box-shadow: 0 0 10px rgba(255, 156, 219, 0.2);
   }
 
@@ -1477,7 +1438,7 @@ main {
     width: 100%;
     padding: 12px 15px;
     margin-bottom: 15px;
-    border: 1px solid #ff9cdb;
+    border: 1px solid #BB73DD;
     border-radius: 8px;
     background: #8c4ce027;
     color: #cccccc;
@@ -1490,7 +1451,7 @@ main {
   }
 
   .formulario-whatsapp button {
-    background: linear-gradient(90deg,  #8c4ce0f6, #8c4ce0da, #8c4ce09c,  #8c4ce0dc, #8c4ce0ac,#8c4ce0d0,#8b4ce0);
+    background: linear-gradient(90deg,  #BB73DD,#BB73DD);
     border: none;
     color: white;
     padding: 12px 30px;
@@ -1501,7 +1462,7 @@ main {
   }
 
   .formulario-whatsapp button:hover {
-    background: linear-gradient(90deg,  #8c4ce04c, #8c4ce054, #8c4ce046,  #8c4ce058, #8c4ce045,#8c4ce05a,#8c4ce050);
+    scale: 1.02;
   }
 
   .botao-container-brilhante {
@@ -1510,8 +1471,7 @@ main {
 }
 
 .animar-baixo {
-  background: linear-gradient(90deg, #8c4ce0f6, #8c4ce0da, #8c4ce09c,
-   #8c4ce0dc, #8c4ce0ac, #8c4ce0d0, #8b4ce0);
+  background: linear-gradient(90deg, #BB73DD,#BB73DD);
   color: white;
   padding: 0.8rem 1.5rem;
   border: none;
@@ -1533,7 +1493,7 @@ main {
   right: -3px;
   bottom: -3px;
   border-radius: 10px;
-  background: linear-gradient(90deg, transparent, #ff9cdb, transparent);
+  background: linear-gradient(90deg, transparent, #c590de, transparent);
   background-size: 300% 100%;
   animation: moveLightForm 2s linear infinite;
   filter: blur(2px);
@@ -1630,7 +1590,7 @@ margin-bottom: 10px;
 }
 
 .footer-icons a:hover {
-  background-color: #ff9cdbb6;
+  background-color: #BB73DD;
   transform: scale(1.05);
 }
 
