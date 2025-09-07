@@ -431,6 +431,22 @@ main {
   overflow: hidden;
 }
 
+@media (max-width: 768px) {
+.cta-btn {
+  position: relative;
+  padding: 1rem 2.5rem;
+  border-radius: 50px;
+  background: linear-gradient(270deg, #BB73DD, #BB73DD);
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  z-index: 2;
+  overflow: hidden;
+}
+}
+
 /* Linha brilhante animada ao redor do botão */
 .light-line {
   content: "";
