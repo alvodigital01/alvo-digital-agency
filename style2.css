@@ -20,7 +20,7 @@
 }
 
 #btnTopo:hover {
-  background-color: #8b4ce0;
+  background-color: #BB73DD;
   transform: scale(1.1);
 }
 
@@ -57,8 +57,8 @@ body {
   .loader {
     width: 40px;
     height: 40px;
-    border: 5px solid #8b4ce0;
-    border-top: 5px solid #ff9cdb;
+    border: 5px solid #BB73DD;
+    border-top: 5px solid #BB73DD;
     border-radius: 50%;
     animation: spin 1s linear infinite;
   }
@@ -92,7 +92,7 @@ header {
 
 
 .underscore {
-  color: #6b2fc8 ;
+  color: #BB73DD ;
   font-size: 1.8rem;
   position: relative;
   top: -5px;
@@ -101,7 +101,7 @@ header {
 /* BOTÃO WHATSAPP COM ESTILO E ANIMAÇÃO */
 .whatsapp-btn {
   color: #cccccc;
-  background: linear-gradient(90deg, #8b4ce0, #8b4ce0);
+  background: linear-gradient(90deg, #BB73DD, #BB73DD);
   border: none;
   padding: 0.7rem 1.8rem;
   border-radius: 50px;
@@ -111,26 +111,26 @@ header {
   align-items: center;
   gap: 0.5rem;
   font-size: 0.95rem;
-  box-shadow: 0 0 0px #8b4ce0;
+  box-shadow: 0 0 0px #BB73DD;
   transition: all 0.3s ease;
   animation: pulseGlow 2s infinite;
 }
 
 .whatsapp-btn:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 20px #8b4ce0;
+  box-shadow: 0 0 20px #BB73DD;
 }
 
 /* Animação de brilho pulsante */
 @keyframes pulseGlow {
   0% {
-    box-shadow: 0 0 0px #8b4ce0;
+    box-shadow: 0 0 0px #BB73DD;
   }
   50% {
-    box-shadow: 0 0 12px #8b4ce0;
+    box-shadow: 0 0 12px #BB73DD;
   }
   100% {
-    box-shadow: 0 0 0px #8b4ce0;
+    box-shadow: 0 0 0px #BB73DD;
   }
 }
 
@@ -159,7 +159,7 @@ header {
 
 .hamburger span {
   height: 2px;
-  background-color:#ff9cdb ;
+  background-color:#BB73DD ;
   border-radius: 1px;
 }
 
@@ -194,7 +194,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  border-bottom: 1px solid #ff9cdb;
+  border-bottom: 1px solid #BB73DD;
 }
 
 /* MAIN */
@@ -211,6 +211,9 @@ main {
   height: 22px; /* ajuste conforme necessário */
   width: auto;
   display: block;
+}
+.h1mobil{
+display: none;
 }
 }
 
@@ -251,7 +254,7 @@ main {
   font-size: 1.3rem;
   margin-bottom: 20px;
   font-weight: 400;
-  background: linear-gradient(90deg, #8c4ce0a9, #d49263a8);
+  background: linear-gradient(90deg, #BB73DD, #BB73DD);
   color: white; /* Cor do texto por cima do fundo */
   border-radius: 12px;
   padding: 10px;
@@ -270,7 +273,7 @@ main {
 display: none;
 }
 .sessao-n1 .destaque {
- background: linear-gradient(90deg, #8b4ce0, #d49263);
+ background: linear-gradient(90deg, #BB73DD, #d49263a8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -331,7 +334,7 @@ display: flex;
   position: absolute;
   top: 0;
   width: 2px;
-  background: linear-gradient(to bottom, #ff9cdb, transparent);
+  background: linear-gradient(to bottom, #BB73DD, transparent);
   animation-name: fall;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -400,7 +403,7 @@ display: flex;
 .titulo-linha {
     font-size: 3rem;
   font-weight:700;
-background: linear-gradient(90deg, #8b4ce0, #d49263);
+background: linear-gradient(90deg, #BB73DD, #BB73DD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1rem;
@@ -449,7 +452,7 @@ background: linear-gradient(90deg, #8b4ce0, #d49263);
 .ponto {
   width: 18px;
   height: 18px;
-  background: #ff9cdb;
+  background: #BB73DD;
   border-radius: 50%;
   display: inline-block;
   position: relative;
@@ -468,7 +471,7 @@ background: linear-gradient(90deg, #8b4ce0, #d49263);
 .titulo-linha {
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(90deg, #8b4ce0, #d49263);
+  background: linear-gradient(90deg, #BB73DD, #BB73DD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1rem;
@@ -517,7 +520,7 @@ background: linear-gradient(90deg, #8b4ce0, #d49263);
 .ponto {
   width: 18px;
   height: 18px;
-  background: #ff9cdb;
+  background: #BB73DD;
   border-radius: 50%;
   display: inline-block;
   position: relative;
@@ -576,14 +579,14 @@ background: linear-gradient(90deg, #8b4ce0, #d49263);
   .item .ponto {
     width: 18px;
     height: 18px;
-    background: #ff9cdb;
+    background: #BB73DD;
     border-radius: 50%;
     z-index: 2;
   }
   .titulo-linha {
   font-size: 2.5rem;
   font-weight:700;
-  background: linear-gradient(90deg, #8b4ce0, #d49263);
+  background: linear-gradient(90deg, #BB73DD, #BB73DD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 2rem;
@@ -642,7 +645,7 @@ background: linear-gradient(90deg, #8b4ce0, #d49263);
 }
 
 .como-titulo span {
-  background: linear-gradient(90deg, #ff9cdb, #b174ff);
+  background: linear-gradient(90deg, #BB73DD, #BB73DD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -656,7 +659,7 @@ background: linear-gradient(90deg, #8b4ce0, #d49263);
 
 .card {
   background-color: transparent !important; /* fundo escuro sólido */
-  border: 1px solid #ff9cdb !important;
+  border: 1px solid #BB73DD !important;
   border-radius: 12px;
   padding: 15px 20px;
   width: 250px;
@@ -673,7 +676,7 @@ background: linear-gradient(90deg, #8b4ce0, #d49263);
   font-size: 5.5rem;
   font-weight: bold;
   margin-bottom: 15px;
-  background: linear-gradient(90deg, #ff9cdb, #b174ff);
+  background: linear-gradient(90deg, #BB73DD, #BB73DD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -689,7 +692,7 @@ background: linear-gradient(90deg, #8b4ce0, #d49263);
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 15px;
-  background: linear-gradient(90deg, #ff9cdb, #b174ff);
+  background: linear-gradient(90deg, #BB73DD, #BB73DD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -706,7 +709,7 @@ background: linear-gradient(90deg, #8b4ce0, #d49263);
   margin-top: -20px;
   margin-bottom: 10px;
   color: #ffffff;
-  background: linear-gradient(90deg, #ff9cdb, #b174ff);
+  background: linear-gradient(90deg, #BB73DD, #BB73DD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -796,7 +799,7 @@ background: linear-gradient(90deg, #8b4ce0, #d49263);
 .consultoria-titulo {
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(90deg, #8b4ce0, #d49263);
+  background: linear-gradient(90deg, #BB73DD, #BB73DD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1.5rem;
@@ -831,7 +834,7 @@ background: linear-gradient(90deg, #8b4ce0, #d49263);
 .bloco-negativo, .bloco-positivo {
   flex: 1 1 45%;
   background: rgba(255, 255, 255, 0.03);
-  border: 1px solid #ff9cdb;
+  border: 1px solid #BB73DD;
   padding: 2rem;
   border-radius: 15px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
@@ -840,7 +843,7 @@ background: linear-gradient(90deg, #8b4ce0, #d49263);
 
 .titulo-bloco {
   font-size: 1.3rem;
-   background: linear-gradient(90deg, #8b4ce0, #d49263);
+   background: linear-gradient(90deg, #BB73DD, #BB73DD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1rem;
@@ -917,7 +920,7 @@ background: linear-gradient(90deg, #8b4ce0, #d49263);
   }
 
   .titulo-formulario {
-      background: linear-gradient(90deg, #8b4ce0, #d49263);
+      background: linear-gradient(90deg, #BB73DD, #BB73DD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     font-size: 3rem;
@@ -950,7 +953,8 @@ background: linear-gradient(90deg, #8b4ce0, #d49263);
   .formulario-whatsapp button {
     background: linear-gradient(90deg,  #BB73DD,#BB73DD);
     border: none;
-    color: white;
+    color:white;
+    text-shadow: 1px 1px 1px #000000;
     padding: 12px 30px;
     font-size: 1rem;
     border-radius: 8px;
@@ -1011,7 +1015,7 @@ background: linear-gradient(90deg, #8b4ce0, #d49263);
 
   @media (max-width: 768px) {
     .titulo-formulario {
-      background: linear-gradient(90deg, #8b4ce0, #d49263);
+      background: linear-gradient(90deg, #BB73DD, #BB73DD);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 2rem;
@@ -1088,7 +1092,7 @@ margin-bottom: 10px;
 }
 
 .footer-icons a:hover {
-  background-color: #ff9cdbb6;
+  background-color: #BB73DD;
   transform: scale(1.05);
 }
 

@@ -63,7 +63,7 @@ body {
     width: 40px;
     height: 40px;
     border: 5px solid #BB73DD;
-    border-top: 5px solid #ff9cdb;
+    border-top: 5px solid #BB73DD;
     border-radius: 50%;
     animation: spin 1s linear infinite;
   }
@@ -147,7 +147,8 @@ header {
 }
 
 .whatsapp-btn {
-  color: #ffffff;
+color:white;
+    text-shadow: 1px 1px 1px #000000;
   background: linear-gradient(90deg, #BB73DD,#BB73DD);
   border: none;
   padding: 0.6rem 1.6rem;
@@ -158,7 +159,7 @@ header {
   align-items: center;
   gap: 0.5rem;
   font-size: 1rem;
-  box-shadow: 0 0 0px #000000;
+  
   transition: all 0.3s ease;
   animation: pulseGlow 2s infinite;
   position: relative; /* Para que o botão fique acima do brilho */
@@ -266,7 +267,7 @@ main {
 
 @media (max-width: 768px) {
   .whatsapp-btn {
-  color: #ffffff;
+  
   border: none;
   padding: 1.2rem 1.6rem;
   border-radius: 50px;
@@ -276,7 +277,7 @@ main {
   align-items: center;
   gap: 0.5rem;
   font-size: 0.6rem;
-  box-shadow: 0 0 0px #BB73DD;
+ 
   transition: all 0.3s ease;
   animation: pulseGlow 2s infinite;
   position: relative; /* Para que o botão fique acima do brilho */
@@ -379,7 +380,7 @@ main {
     }
 
     #h101{
-    background: linear-gradient(90deg, #8b4ce0, #d49263);
+    background: linear-gradient(90deg, #BB73DD, #d49263);
    -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     }
@@ -422,7 +423,8 @@ main {
   padding: 1rem 2.5rem;
   border-radius: 50px;
   background: linear-gradient(270deg, #BB73DD, #BB73DD);
-  color: #ffffff;
+  color:white;
+    text-shadow: 1px 1px 1px #000000;
   font-size: 1.1rem;
   font-weight: 700;
   cursor: pointer;
@@ -437,7 +439,6 @@ main {
   padding: 1rem 2.5rem;
   border-radius: 50px;
   background: linear-gradient(270deg, #BB73DD, #BB73DD);
-  color: #ffffff;
   font-size: 0.7rem;
   font-weight: 700;
   cursor: pointer;
@@ -599,7 +600,7 @@ main {
 }
 
 .destaque {
-  background: linear-gradient(90deg, #8b4ce0, #d49263);
+  background: linear-gradient(90deg, #BB73DD, #BB73DD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -698,7 +699,7 @@ main {
 .titulo-atuacao {
   font-size: 3rem;
   font-weight:700;
-  background: linear-gradient(90deg, #8b4ce0, #d49263);
+  background: linear-gradient(90deg, #BB73DD, #BB73DD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1rem;
@@ -892,7 +893,7 @@ main {
 .linha-estrategica-titulo {
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(90deg, #8b4ce0, #d49263);
+  background: linear-gradient(90deg, #BB73DD, #BB73DD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1rem;
@@ -1055,7 +1056,7 @@ main {
   font-size: 2.5rem;
   margin-bottom: 3rem;
   font-weight: 700;
-  background: linear-gradient(90deg, #8b4ce0, #d49263);
+  background: linear-gradient(90deg, #BB73DD, #BB73DD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1112,7 +1113,7 @@ main {
   font-weight: bold;
   margin-bottom: 10px;
   text-transform: uppercase;
-  background: linear-gradient(90deg, #8b4ce0, #d49263);
+  background: linear-gradient(90deg, #BB73DD, #BB73DD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   height: 50px; /* força altura igual para todos os h3 */
@@ -1229,7 +1230,7 @@ main {
 .titulo-n1-agencia {
   font-size: 2.5rem;
   font-weight: 700;
-  background: linear-gradient(90deg, #8b4ce0, #d49263);
+  background: linear-gradient(90deg, #BB73DD, #BB73DD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1rem;
@@ -1316,7 +1317,7 @@ main {
 .consultoria-titulo {
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(90deg, #8b4ce0, #d49263);
+  background: linear-gradient(90deg, #BB73DD, #BB73DD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1.5rem;
@@ -1360,7 +1361,7 @@ main {
 
 .titulo-bloco {
   font-size: 1.3rem;
-   background: linear-gradient(90deg, #8b4ce0, #d49263);
+   background: linear-gradient(90deg, #BB73DD,#BB73DD );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1rem;
@@ -1439,7 +1440,7 @@ main {
   }
 
   .titulo-formulario {
-      background: linear-gradient(90deg, #8b4ce0, #d49263);
+      background: linear-gradient(90deg, #BB73DD, #BB73DD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     font-size: 3rem;
@@ -1472,7 +1473,8 @@ main {
   .formulario-whatsapp button {
     background: linear-gradient(90deg,  #BB73DD,#BB73DD);
     border: none;
-    color: white;
+  color:white;
+    text-shadow: 1px 1px 1px #000000;
     padding: 12px 30px;
     font-size: 1rem;
     border-radius: 8px;
@@ -1533,7 +1535,7 @@ main {
 
   @media (max-width: 768px) {
     .titulo-formulario {
-      background: linear-gradient(90deg, #8b4ce0, #d49263);
+      background: linear-gradient(90deg, #BB73DD, #BB73DD);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 2rem;
