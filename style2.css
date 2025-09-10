@@ -254,7 +254,7 @@ display: none;
   font-size: 1.3rem;
   margin-bottom: 20px;
   font-weight: 400;
-  background: linear-gradient(90deg, #BB73DD, #BB73DD);
+  background: linear-gradient(90deg, #BB73DD, #d49263);
   color: white; /* Cor do texto por cima do fundo */
   border-radius: 12px;
   padding: 10px;
@@ -403,7 +403,7 @@ display: flex;
 .titulo-linha {
     font-size: 3rem;
   font-weight:700;
-background: linear-gradient(90deg, #BB73DD, #BB73DD);
+background: linear-gradient(90deg, #BB73DD, #d49263);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1rem;
@@ -471,7 +471,7 @@ background: linear-gradient(90deg, #BB73DD, #BB73DD);
 .titulo-linha {
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(90deg, #BB73DD, #BB73DD);
+  background: linear-gradient(90deg, #BB73DD, #d49263);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1rem;
@@ -586,7 +586,7 @@ background: linear-gradient(90deg, #BB73DD, #BB73DD);
   .titulo-linha {
   font-size: 2.5rem;
   font-weight:700;
-  background: linear-gradient(90deg, #BB73DD, #BB73DD);
+  background: linear-gradient(90deg, #BB73DD, #d49263);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 2rem;
@@ -645,7 +645,7 @@ background: linear-gradient(90deg, #BB73DD, #BB73DD);
 }
 
 .como-titulo span {
-  background: linear-gradient(90deg, #BB73DD, #BB73DD);
+  background: linear-gradient(90deg, #BB73DD, #d49263);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -704,14 +704,12 @@ background: linear-gradient(90deg, #BB73DD, #BB73DD);
 }
 
 .subtitulo-funciona {
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 1.1rem;
+
   margin-top: -20px;
   margin-bottom: 10px;
-  color: #ffffff;
-  background: linear-gradient(90deg, #BB73DD, #BB73DD);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #cccccc;
+
 }
 
 .descricao-funciona {
@@ -722,12 +720,19 @@ background: linear-gradient(90deg, #BB73DD, #BB73DD);
   line-height: 1.6;
 }
 
+.titulomobile{
+  display: none;
+}
+
 @media (max-width: 768px) {
 .como-titulo {
   font-size: 2.5rem;
   margin-bottom: 40px;
   font-weight: 700;
   
+}
+.titulomobile{
+  display: flex;
 }
 .descricao-funciona {
   font-size: 0.9rem;
@@ -799,7 +804,7 @@ background: linear-gradient(90deg, #BB73DD, #BB73DD);
 .consultoria-titulo {
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(90deg, #BB73DD, #BB73DD);
+  background: linear-gradient(90deg, #BB73DD, #d49263);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1.5rem;
@@ -920,7 +925,7 @@ background: linear-gradient(90deg, #BB73DD, #BB73DD);
   }
 
   .titulo-formulario {
-      background: linear-gradient(90deg, #BB73DD, #BB73DD);
+      background: linear-gradient(90deg, #BB73DD, #d49263);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     font-size: 3rem;
@@ -1015,10 +1020,9 @@ background: linear-gradient(90deg, #BB73DD, #BB73DD);
 
   @media (max-width: 768px) {
     .titulo-formulario {
-      background: linear-gradient(90deg, #BB73DD, #BB73DD);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 10px;
     font-weight: 700;
   }

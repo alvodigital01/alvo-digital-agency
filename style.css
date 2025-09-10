@@ -439,7 +439,7 @@ main {
   padding: 1rem 2.5rem;
   border-radius: 50px;
   background: linear-gradient(270deg, #BB73DD, #BB73DD);
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   font-weight: 700;
   cursor: pointer;
   border: none;
@@ -515,7 +515,7 @@ main {
     }
 
       .hero p {
-        font-size: 0.8rem;
+        font-size: 1.4rem;
       }
     }
 
@@ -664,16 +664,16 @@ main {
 
 @media (max-width: 768px) {
    .titulo-atuacao {
-  font-size: 1.7rem;
-  font-weight: 700;
+  font-size: 2.5rem;
+  font-weight: 800;
   color: #cccccc;
   margin-bottom: 1rem;
 }
 
 .subtitulo-atuacao {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: 3rem;
-  color: #BB73DD;
+  color: #ccccc;
 }
   }
  .atuacao-section {
@@ -699,7 +699,7 @@ main {
 .titulo-atuacao {
   font-size: 3rem;
   font-weight:700;
-  background: linear-gradient(90deg, #BB73DD, #BB73DD);
+  background: linear-gradient(90deg, #BB73DD, #d49263);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1rem;
@@ -708,7 +708,7 @@ main {
 .subtitulo-atuacao {
   font-size: 1.2rem;
   margin-bottom: 3rem;
-  color: #BB73DD;
+  color: #cccccc;
 }
 
 .cards-atuacao {
@@ -732,14 +732,14 @@ main {
 
 @media (max-width: 768px) {
    .titulo-atuacao {
-  font-size: 1.7rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: #cccccc;
   margin-bottom: 1rem;
 }
 
 .subtitulo-atuacao {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: 3rem;
   color: #BB73DD;
 }
@@ -762,7 +762,7 @@ main {
 
 .card-item .icon {
   font-size: 2.2rem;
-  color: #BB73DD;
+  color: #ffffff;
   margin-bottom: 1rem;
 }
 
@@ -893,16 +893,24 @@ main {
 .linha-estrategica-titulo {
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(90deg, #BB73DD, #BB73DD);
+  background: linear-gradient(90deg, #BB73DD, #d49263);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1rem;
 }
 
+@media (max-width: 768px) {
+.linha-estrategica-titulo {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+}
+
 .linha-estrategica-subtitulo {
   font-size: 1.2rem;
   margin-bottom: 2.5rem;
-  color:#BB73DD ;
+  color:#cccccc ;
 }
 
 .linha-estrategica-cards {
@@ -953,10 +961,10 @@ main {
     justify-content: space-between;
   }
 
-
   .linha-estrategica-card {
     flex: 1 1 calc(48% - 1rem);
   }
+
 }
 
 
@@ -1053,10 +1061,10 @@ main {
 }
 
 .titulo-mosaico-metodo {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 3rem;
   font-weight: 700;
-  background: linear-gradient(90deg, #BB73DD, #BB73DD);
+  background: linear-gradient(90deg, #BB73DD, #d49263);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1228,9 +1236,9 @@ main {
 }
 
 .titulo-n1-agencia {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(90deg, #BB73DD, #BB73DD);
+  background: linear-gradient(90deg, #BB73DD, #d49263);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1rem;
@@ -1265,6 +1273,9 @@ main {
     font-size: 2.5rem;
   }
 
+  .tituloparapc{
+  display: none;
+}
   .lista-n1-diferenciais li {
     font-size: 1rem;
   }
@@ -1317,7 +1328,7 @@ main {
 .consultoria-titulo {
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(90deg, #BB73DD, #BB73DD);
+  background: linear-gradient(90deg, #BB73DD, #d49263);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1.5rem;
@@ -1361,7 +1372,7 @@ main {
 
 .titulo-bloco {
   font-size: 1.3rem;
-   background: linear-gradient(90deg, #BB73DD,#BB73DD );
+   background: linear-gradient(90deg, #BB73DD,#BB73DD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1rem;
@@ -1440,7 +1451,7 @@ main {
   }
 
   .titulo-formulario {
-      background: linear-gradient(90deg, #BB73DD, #BB73DD);
+      background: linear-gradient(90deg, #BB73DD, #d49263);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     font-size: 3rem;
@@ -1535,9 +1546,6 @@ main {
 
   @media (max-width: 768px) {
     .titulo-formulario {
-      background: linear-gradient(90deg, #BB73DD, #BB73DD);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-size: 2rem;
     margin-bottom: 10px;
     font-weight: 700;

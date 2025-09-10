@@ -6,6 +6,7 @@
     <title> Alvo Digital | Agência</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Bootstrap Icons (opcional) -->
@@ -30,23 +31,34 @@
 </div>
 
 
-   <!-- BOTÃO WHATSAPP -->
-<div class="whatsapp-container">
-  <a href="index2.html" class="whatsapp-btn">
-    Conheça Nossos Sites Premium
-</a>
-
-  <span class="light-line-wpp"></span>
-</div>
+    <!-- BOTÃO WHATSAPP -->
 
 
+    <!-- MENU HAMBÚRGUER -->
+    <div class="menu-button" id="menu-toggle">
+      
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
 
-
-
-
- 
+  <!-- MENU EXPANDIDO -->
+  <nav id="nav">
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      
+      <li><a href="#soluçoes1">Especialidades</a></li>
+      <li><a href="#atuacao">Sites que Vendem</a></li>
+      <li><a href="#exclusividade">Exclusividade</a></li>
+      <li><a href="#consultoria">Consultoria</a></li>
+      
+      <li><a href="#contato">Fale Conosco</a></li>
+    </ul>
+  </nav>
 </header>
-
 
 
 <section class="hero animated-background"> 
@@ -65,6 +77,7 @@
 
     <div class="cta-container">
       <a href="https://wa.me/5543988724786?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20para%20desenvolvimento%20de%20sites.%20Poderia%20me%20passar%20mais%20informa%C3%A7%C3%B5es%3F" target="_blank">
+        
         <button class="cta-btn animarHeroBotao">QUERO MEU SITE PROFISSIONAL </button>
       </a>
       <span class="light-line"></span>
@@ -76,16 +89,6 @@
 
 
 
-<!--<section class="sessao-n1" id="sessao-n1">
-  <div class="container animar-n1-container">
-    <div class="n1-box">
-      <h1 class="animar-n1-h1"><span class="destaque">CHEGA DE CONTEÚDO VAZIO.</span></h1>
-      <h2 class="animar-n1-h2">Na <span class="n1-color">ALVO DIGITAL</span>, a gente joga em <br id="br1"> outro nível:</h2>
-      <h3 class="animar-n1-h3">Autoridade, posicionamento e vendas reais.</h3>
-      <p class="animar-n1-p">Sem enrolação. Com estratégia. Com resultado.</p>
-    </div>
-  </div>
-</section>-->
 
 
 
@@ -93,41 +96,43 @@
 
 
 
-<section class="sessao-linha-estrategica">
+
+<section class="sessao-linha-estrategica" id="soluçoes1">
   <div class="linha-estrategica-container animar-linha">
-    <h2 class="linha-estrategica-titulo" style="font-size: 2.5rem;">SOLUÇÕES DIGITAIS</h2>
-    <p class="linha-estrategica-subtitulo">
-      Desenvolvemos sites que conectam negócios com resultados reais:
+    <h2 class="linha-estrategica-titulo">SITES ESPECIALIZADOS POR NICHO</h2>
+    <p class="linha-estrategica-subtitulo" style="color: #cccccc;">
+      Desenvolvemos sites que destacam negócios de diferentes segmentos, com foco em resultados reais:
     </p>
 
     <div class="linha-estrategica-cards">
       <div class="linha-estrategica-card">
         <i class="bi bi-patch-check-fill check-roxo"></i>
-        <p>Empresas que precisam de sites modernos e profissionais.</p>
+        <p>Sites para <strong>advogados e escritórios de advocacia</strong>, transmitindo credibilidade e autoridade.</p>
       </div>
       <div class="linha-estrategica-card">
         <i class="bi bi-patch-check-fill check-roxo"></i>
-        <p>Lojas físicas que querem vender também no digital.</p>
+        <p>Plataformas para <strong>eventos</strong>, com áreas de inscrição, cronogramas e venda de ingressos online.</p>
       </div>
       <div class="linha-estrategica-card">
         <i class="bi bi-patch-check-fill check-roxo"></i>
-        <p>Profissionais liberais que desejam presença online forte.</p>
+        <p>Sites para <strong>clínicas e profissionais da saúde</strong>, com agendamento online e foco em confiança.</p>
       </div>
       <div class="linha-estrategica-card">
         <i class="bi bi-patch-check-fill check-roxo"></i>
-        <p>Marcas que buscam sites com design exclusivo e performance.</p>
+        <p>Lojas virtuais para <strong>e-commerces</strong>, otimizadas para vendas rápidas e seguras.</p>
       </div>
       <div class="linha-estrategica-card">
         <i class="bi bi-patch-check-fill check-roxo"></i>
-        <p>Startups que precisam de landing pages otimizadas para captar leads.</p>
+        <p><strong>Startups</strong> que precisam de landing pages otimizadas para captar leads e investidores.</p>
       </div>
       <div class="linha-estrategica-card">
         <i class="bi bi-patch-check-fill check-roxo"></i>
-        <p>Negócios que querem sites rápidos, seguros e fáceis de gerenciar.</p>
+        <p>Sites para <strong>restaurantes e deliverys</strong>, integrados com cardápios digitais e pedidos online.</p>
       </div>
     </div>
   </div>
 </section>
+
 
 
 
@@ -136,63 +141,65 @@
 
 <section class="atuacao-section" id="atuacao">
   <div class="container-atuacao animar">
-    <h2 class="titulo-atuacao entrar-direita">SOLUÇÕES DIGITAIS PARA SEU NEGÓCIO</h2>
-    <p class="subtitulo-atuacao entrar-esquerda">Na nossa agência, criamos sites que fortalecem sua marca e geram resultados reais:</p>
+    <h2 class="titulo-atuacao entrar-direita">SITES QUE VENDEM</h2>
+    <p class="subtitulo-atuacao entrar-esquerda">
+      Não entregamos apenas sites: criamos experiências digitais que fortalecem sua marca e transformam visitantes em clientes.
+    </p>
 
     <div class="cards-atuacao" style="border: 1px #BD70DB;">
 
       <div class="card-item animar-card">
-        <i class="ph ph-globe icon"></i>
-        <h3>Criação de Sites</h3>
-        <p>Sites rápidos, modernos e responsivos para sua empresa.</p>
+        <i class="ph ph-globe icon" style="color: #d49263;"></i>
+        <h3>Criação de Sites Profissionais</h3>
+        <p>Sites modernos e estratégicos que transmitem credibilidade e atraem clientes ideais.</p>
       </div>
 
       <div class="card-item animar-card">
-        <i class="ph ph-device-mobile icon"></i>
-        <h3>Landing Pages</h3>
-        <p>Páginas otimizadas para captar leads e gerar conversões.</p>
+        <i class="ph ph-device-mobile icon" style="color: #d49263;"></i>
+        <h3>Landing Pages de Alta Conversão</h3>
+        <p>Páginas otimizadas para captar leads, vender eventos e gerar resultados rápidos.</p>
       </div>
 
       <div class="card-item animar-card">
-        <i class="ph ph-paint-brush icon"></i>
-        <h3>Design Exclusivo</h3>
-        <p>Identidade visual única que transmite profissionalismo.</p>
+        <i class="ph ph-paint-brush icon" style="color: #d49263;"></i>
+        <h3>Design Personalizado</h3>
+        <p>Layout exclusivo para sua marca, passando confiança e diferencial no mercado.</p>
       </div>
 
       <div class="card-item animar-card">
-        <i class="ph ph-chart-line-up icon"></i>
-        <h3>SEO & Performance</h3>
-        <p>Sites preparados para aparecer no Google e carregar rápido.</p>
+        <i class="ph ph-chart-line-up icon" style="color: #d49263;"></i>
+        <h3>SEO & Velocidade</h3>
+        <p>Sites preparados para aparecer no Google e carregar em segundos.</p>
       </div>
 
       <div class="card-item animar-card">
-        <i class="ph ph-database icon"></i>
-        <h3>Sistemas Web</h3>
-        <p>Soluções sob medida para automatizar processos do seu negócio.</p>
+        <i class="ph ph-database icon" style="color: #d49263;"></i>
+        <h3>Soluções Personalizadas</h3>
+        <p>Automatizamos processos e criamos sistemas sob medida para o seu negócio.</p>
       </div>
 
       <div class="card-item animar-card">
-        <i class="ph ph-lock-key icon"></i>
+        <i class="ph ph-lock-key icon" style="color: #d49263;"></i>
         <h3>Segurança Digital</h3>
-        <p>Sites protegidos contra ataques e com certificados de segurança.</p>
+        <p>Certificados SSL, proteção contra ataques e tranquilidade para seus clientes.</p>
       </div>
 
       <div class="card-item animar-card">
-        <i class="ph ph-devices icon"></i>
-        <h3>Responsividade</h3>
-        <p>Sites perfeitos em qualquer dispositivo: celular, tablet ou PC.</p>
+        <i class="ph ph-devices icon" style="color: #d49263;"></i>
+        <h3>100% Responsivo</h3>
+        <p>Experiência perfeita em qualquer dispositivo: celular, tablet ou computador.</p>
       </div>
 
       <div class="card-item animar-card">
-        <i class="ph ph-shopping-cart icon"></i>
-        <h3>E-commerce</h3>
-        <p>Lojas virtuais completas e integradas para aumentar suas vendas.</p>
+        <i class="ph ph-shopping-cart icon" style="color: #d49263;"></i>
+        <h3>E-commerce que Vende</h3>
+        <p>Lojas virtuais completas, integradas e otimizadas para aumentar faturamento.</p>
       </div>
 
       <div class="card-item animar-card">
-        <i class="ph ph-headset icon"></i>
-        <h3>Suporte & Manutenção</h3>
-        <p>Acompanhamento contínuo para manter seu site sempre atualizado.</p>
+        <i class="ph ph-headset icon" style="color: #d49263;"></i>
+        <h3>Suporte Contínuo</h3>
+        <p>Manutenção e acompanhamento para que seu site nunca fique desatualizado.</p>
       </div>
 
     </div>
@@ -200,8 +207,7 @@
 </section>
 
 
-
-<section class="secao-mosaico-metodo">
+<section class="secao-mosaico-metodo" id="metodo">
   <h2 class="titulo-mosaico-metodo entrar-direita">NOSSO MÉTODO PARA SITES DE ALTO IMPACTO</h2>
 
   <div class="mosaico-metodo entrar-esquerda">
@@ -246,7 +252,7 @@
 
 <section class="sessao-n1-agencia" id="somos-n1">
   <div class="container-n1-agencia animar">
-    <h2 class="titulo-n1-agencia entrar-direita">AGÊNCIA DE SITES? ISSO FICOU NO PASSADO.</h2>
+    <h2 class="titulo-n1-agencia entrar-direita">AGÊNCIA DE SITES?  <br class="tituloparapc">ISSO FICOU NO PASSADO.</h2>
 
     <p class="subtitulo-atuacao entrar-esquerda">
       Criamos sites que não só impressionam, mas convertem visitantes em clientes.
@@ -265,7 +271,39 @@
 
 
 
-<section class="sessao-consultoria">
+
+
+<section class="como-funciona" id="exclusividade">
+  <h2 class="como-titulo animar-direita"><span>EXCLUSIVIDADE <br class="titulomobile"> DE VERDADE</span></h2>
+  <h3 class="subtitulo-funciona animar-direita" >Como funciona?</h3>
+  <br>
+
+  <div class="cards">
+    <div class="card animar-card" data-delay="0">
+      <div class="numero">1</div>
+      <p>Planejamos seu site com estratégia, público-alvo definido e diferenciais claros.</p>
+    </div>
+    <div class="card animar-card" data-delay="100">
+      <div class="numero">2</div>
+      <p>Desenhamos layouts modernos, responsivos e alinhados à identidade da sua marca.</p>
+    </div>
+    <div class="card animar-card" data-delay="200">
+      <div class="numero">3</div>
+      <p>Desenvolvemos e implementamos o site, garantindo velocidade, SEO e usabilidade.</p>
+    </div>
+    <div class="card animar-card" data-delay="300">
+      <div class="numero">4</div>
+      <p>Analisamos métricas, otimizamos a performance e ajustamos para maximizar conversões.</p>
+    </div>
+  </div>
+</section>
+
+<br><br>
+
+
+
+
+<section class="sessao-consultoria" id="consultoria">
   <div class="consultoria-container">
     <h2 class="consultoria-titulo entrar-direita">CONSULTORIA GRATUITA DA ALVO DIGITAL</h2>
     <p class="consultoria-subtitulo entrar-esquerda">
@@ -274,7 +312,7 @@
 
     <div class="blocos-consultoria">
       <div class="bloco-negativo">
-        <h3 class="titulo-bloco">O que você está acostumado<br id="title11"> a ver por aí:</h3>
+        <h3 class="titulo-bloco" style="color: #BB73DD;">O que você está acostumado<br id="title11"> a ver por aí:</h3>
         <ul>
           <li><i class="bi bi-x-circle-fill"></i> Sites bonitos, mas sem foco em conversão ou resultados.</li>
           <li><i class="bi bi-x-circle-fill"></i> Layouts genéricos que não representam sua marca.</li>
@@ -309,7 +347,7 @@
     <form class="animar-esquerda" onsubmit="enviarWhatsApp(); return false;">
       <input type="text" id="nome" placeholder="Seu nome" required>
       <input type="text" id="servico" placeholder="Sua empresa" required>
-      <textarea id="mensagem" placeholder="WhatsApp"></textarea>
+      <textarea id="mensagem" placeholder="Sua mensagem"></textarea>
       
       <div class="botao-container-brilhante">
   <button type="submit" class="animar-baixo">
@@ -799,9 +837,9 @@ toggle.addEventListener('click', () => {
 
 <script>
   function enviarWhatsApp() {
-    const nome = document.getElementById("nome").value;
-    const servico = document.getElementById("servico").value;
-    const mensagem = document.getElementById("mensagem").value;
+    const nome = document.getElementById("Nome").value;
+    const servico = document.getElementById("Empresa").value;
+    const mensagem = document.getElementById("Mensagem").value;
 
     const texto = `Olá! Meu nome é ${nome}. Quero falar sobre: ${servico}.${mensagem ? '\n\nMensagem: ' + mensagem : ''}`;
 
