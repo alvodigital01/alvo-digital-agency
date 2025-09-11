@@ -438,7 +438,6 @@ main {
   position: relative;
   padding: 1rem 2.5rem;
   border-radius: 50px;
-  background: linear-gradient(270deg, #BB73DD, #BB73DD);
   font-size: 0.9rem;
   font-weight: 700;
   cursor: pointer;
@@ -460,7 +459,7 @@ main {
   right: -3px;
   bottom: -3px;
   border-radius: 50px;
-  background: linear-gradient(90deg, transparent, #BB73DD, transparent);
+  background: linear-gradient(90deg, transparent, #d49263, #BB73DD,transparent);
   z-index: 1;
   animation: moveLight 2s linear infinite;
   background-size: 300% 100%;
@@ -508,7 +507,7 @@ main {
 
     @media (max-width: 768px) {
       .hero h1 {
-        font-size: 1.9rem;
+        font-size: 2.5rem;
       }
       .tranform{
       font-size: 1.6rem;
@@ -664,7 +663,7 @@ main {
 
 @media (max-width: 768px) {
    .titulo-atuacao {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 800;
   color: #cccccc;
   margin-bottom: 1rem;
@@ -673,7 +672,7 @@ main {
 .subtitulo-atuacao {
   font-size: 1.2rem;
   margin-bottom: 3rem;
-  color: #ccccc;
+
 }
   }
  .atuacao-section {
@@ -739,9 +738,9 @@ main {
 }
 
 .subtitulo-atuacao {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin-bottom: 3rem;
-  color: #BB73DD;
+  color: #cccccc;
 }
   }
 
@@ -905,6 +904,8 @@ main {
   font-weight: 700;
 }
 
+
+
 }
 
 .linha-estrategica-subtitulo {
@@ -960,6 +961,13 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
+  .linha-estrategica-card p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #cccccc;
+}
 
   .linha-estrategica-card {
     flex: 1 1 calc(48% - 1rem);
@@ -1149,7 +1157,12 @@ main {
   .mosaico-metodo {
     grid-template-columns: 1fr;
   }
-
+.descricao-mosaico {
+  color: #BB73DD;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
   .mosaico-item-metodo {
     height: 450px;
   }
@@ -1159,11 +1172,11 @@ main {
   }
 
   .overlay-mosaico h3 {
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
 
   .overlay-mosaico p {
-    font-size: 0.85rem;
+    font-size: 1.4rem;
   }
   .mosaico-item-metodo:first-child {
   border-top-left-radius: 0;
@@ -1277,7 +1290,7 @@ main {
   display: none;
 }
   .lista-n1-diferenciais li {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -1337,6 +1350,9 @@ main {
   transition: all 1s ease;
 }
 
+.alvomobil{
+  display: none;
+}
 .consultoria-subtitulo {
   font-size: 1.2rem;
   color: #cccccc;
@@ -1411,6 +1427,9 @@ main {
     font-size: 2.5rem;
   }
 
+  .alvomobil{
+    display: flex;
+  }
   .consultoria-subtitulo {
     font-size: 1rem;
   }
