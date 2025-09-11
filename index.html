@@ -27,7 +27,8 @@
     
     <!-- LOGO -->
    <div class="logo">
-  <a href="index.html"><img src="imagens/logopequenaalvo.PNG" alt="Logo N1"></a>
+  <a href="index.html"><img src="imagens/Logo e Nome em Roxo Vibrante.png" style="height: 65px; /* ajuste conforme necessário */
+  width: auto;" alt="Logo alvo digital"></a>
 </div>
 
 
@@ -149,55 +150,55 @@
     <div class="cards-atuacao" style="border: 1px #BD70DB;">
 
       <div class="card-item animar-card">
-        <i class="ph ph-globe icon" style="color: #d49263;"></i>
+        <i class="ph ph-globe icon" style="color: #BB73DD;"></i>
         <h3>Criação de Sites Profissionais</h3>
         <p>Sites modernos e estratégicos que transmitem credibilidade e atraem clientes ideais.</p>
       </div>
 
       <div class="card-item animar-card">
-        <i class="ph ph-device-mobile icon" style="color: #d49263;"></i>
+        <i class="ph ph-device-mobile icon" style="color: #BB73DD;"></i>
         <h3>Landing Pages de Alta Conversão</h3>
         <p>Páginas otimizadas para captar leads, vender eventos e gerar resultados rápidos.</p>
       </div>
 
       <div class="card-item animar-card">
-        <i class="ph ph-paint-brush icon" style="color: #d49263;"></i>
+        <i class="ph ph-paint-brush icon" style="color: #BB73DD;"></i>
         <h3>Design Personalizado</h3>
         <p>Layout exclusivo para sua marca, passando confiança e diferencial no mercado.</p>
       </div>
 
       <div class="card-item animar-card">
-        <i class="ph ph-chart-line-up icon" style="color: #d49263;"></i>
+        <i class="ph ph-chart-line-up icon" style="color: #BB73DD;"></i>
         <h3>SEO & Velocidade</h3>
         <p>Sites preparados para aparecer no Google e carregar em segundos.</p>
       </div>
 
       <div class="card-item animar-card">
-        <i class="ph ph-database icon" style="color: #d49263;"></i>
+        <i class="ph ph-database icon" style="color: #BB73DD;"></i>
         <h3>Soluções Personalizadas</h3>
         <p>Automatizamos processos e criamos sistemas sob medida para o seu negócio.</p>
       </div>
 
       <div class="card-item animar-card">
-        <i class="ph ph-lock-key icon" style="color: #d49263;"></i>
+        <i class="ph ph-lock-key icon" style="color: #BB73DD;"></i>
         <h3>Segurança Digital</h3>
         <p>Certificados SSL, proteção contra ataques e tranquilidade para seus clientes.</p>
       </div>
 
       <div class="card-item animar-card">
-        <i class="ph ph-devices icon" style="color: #d49263;"></i>
+        <i class="ph ph-devices icon" style="color: #BB73DD;"></i>
         <h3>100% Responsivo</h3>
         <p>Experiência perfeita em qualquer dispositivo: celular, tablet ou computador.</p>
       </div>
 
       <div class="card-item animar-card">
-        <i class="ph ph-shopping-cart icon" style="color: #d49263;"></i>
+        <i class="ph ph-shopping-cart icon" style="color: #BB73DD;"></i>
         <h3>E-commerce que Vende</h3>
         <p>Lojas virtuais completas, integradas e otimizadas para aumentar faturamento.</p>
       </div>
 
       <div class="card-item animar-card">
-        <i class="ph ph-headset icon" style="color: #d49263;"></i>
+        <i class="ph ph-headset icon" style="color: #BB73DD;"></i>
         <h3>Suporte Contínuo</h3>
         <p>Manutenção e acompanhamento para que seu site nunca fique desatualizado.</p>
       </div>
@@ -837,19 +838,22 @@ toggle.addEventListener('click', () => {
 
 <script>
   function enviarWhatsApp() {
-    const nome = document.getElementById("Nome").value;
-    const servico = document.getElementById("Empresa").value;
-    const mensagem = document.getElementById("Mensagem").value;
+    const nome = document.getElementById("nome").value;
+    const servico = document.getElementById("servico").value;
+    const mensagem = document.getElementById("mensagem").value;
 
-    const texto = `Olá! Meu nome é ${nome}. Quero falar sobre: ${servico}.${mensagem ? '\n\nMensagem: ' + mensagem : ''}`;
+    const texto = 
+      `Olá! Meu nome é ${nome}.` + 
+      `\nEmpresa: ${servico}` + 
+      (mensagem ? `\n\nMensagem: ${mensagem}` : "");
 
     const numero = "5543988724786"; // Troque pelo seu número
     const url = `https://wa.me/${numero}?text=${encodeURIComponent(texto)}`;
 
     window.open(url, "_blank");
   }
-
 </script>
+
 
 <script>
   // Define o ano atual automaticamente
