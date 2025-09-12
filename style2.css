@@ -618,6 +618,7 @@ background: linear-gradient(90deg, #BB73DD, #d49263);
   font-size: 3rem;
   margin-bottom: 40px;
   font-weight: 700;
+  font-family: 'Sora', sans-serif; /* Fonte do Google */
 }
 
 .como-titulo span {

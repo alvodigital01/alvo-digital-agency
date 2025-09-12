@@ -29,10 +29,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+
 }
 
 body {
-      font-family: 'Rajdhani', sans-serif;
+      font-family: 'Open Sans', sans-serif; 
       color: white;
       background: linear-gradient(to right, black,black );
       overflow-x: hidden;
@@ -398,6 +400,7 @@ main {
   font-weight: 700;
   line-height: 1.3;
   color: #cccccc;
+ font-family: 'Sora', sans-serif; /* Fonte do Google */
 }
 
     .hero p {
@@ -407,6 +410,7 @@ main {
       transform: translateY(30px);
       animation: slideIn 1s ease forwards 0.5s;
        color: #cccccc;
+       font-family: 'Open Sans', sans-serif;
     }
 
 .cta-container {
@@ -432,6 +436,7 @@ main {
   border: none;
   z-index: 2;
   overflow: hidden;
+  font-family: 'Sora', sans-serif; /* Fonte do Google */
 }
 
 @media (max-width: 768px) {
@@ -703,6 +708,7 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1rem;
+  font-family: 'Sora', sans-serif; /* Fonte do Google */
 }
 
 .subtitulo-atuacao {
@@ -897,6 +903,7 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1rem;
+  font-family: 'Sora', sans-serif; /* Fonte do Google */
 }
 
 @media (max-width: 768px) {
@@ -1076,6 +1083,7 @@ main {
   background: linear-gradient(90deg, #6106EA, #BB73DD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: 'Sora', sans-serif; /* Fonte do Google */
 }
 
 
@@ -1137,6 +1145,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Sora', sans-serif; /* Fonte do Google */
 }
 
 .overlay-mosaico p {
@@ -1257,6 +1266,7 @@ main {
   -webkit-text-fill-color: transparent;
   margin-bottom: 1rem;
   line-height: 1.3;
+  font-family: 'Sora', sans-serif; /* Fonte do Google */
 }
 
 .lista-n1-diferenciais {
@@ -1349,6 +1359,7 @@ main {
   opacity: 0;
   transform: translateX(100px);
   transition: all 1s ease;
+  font-family: 'Sora', sans-serif; /* Fonte do Google */
 }
 
 .alvomobil{
@@ -1397,6 +1408,7 @@ main {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 1rem;
+  font-family: 'Sora', sans-serif; /* Fonte do Google */
 }
 
 .bloco-negativo ul li,
@@ -1489,6 +1501,7 @@ main {
     font-size: 3rem;
     margin-bottom: 10px;
     font-weight: 700;
+    font-family: 'Sora', sans-serif; /* Fonte do Google */
   }
 
   .subtitulo-formulario {
