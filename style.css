@@ -392,6 +392,7 @@ main {
     }
 
    .hero h1 {
+    
   font-size: 3rem;
   margin-bottom: 1.2rem;
   font-weight: 700;
@@ -1431,12 +1432,19 @@ main {
     display: flex;
   }
   .consultoria-subtitulo {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .blocos-consultoria {
     flex-direction: column;
   }
+
+  .bloco-negativo ul li,
+.bloco-positivo ul li {
+ 
+  font-size: 1.2rem;
+ 
+}
 
   .bloco-negativo, .bloco-positivo {
     flex: 1 1 100%;
@@ -1448,6 +1456,11 @@ main {
 #tittle12{
   display: none;
 }
+.titulo-bloco {
+  font-size: 1.7rem;
+  
+}
+
 }
 
 
@@ -1565,9 +1578,12 @@ main {
 
   @media (max-width: 768px) {
     .titulo-formulario {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 10px;
     font-weight: 700;
+  }
+  .subtitulo-formulario {
+    font-size: 1.2rem;
   }
   }
 
